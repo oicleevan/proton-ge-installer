@@ -9,7 +9,8 @@ print("Installing the newest version of proton-ge\n")
 Commands = [
     "wget " + url,
     "mkdir -p ~/.steam/root/compatibilitytools.d/",
-    f"tar -xvf Proton-{version}.tar.gz -C ~/.steam/root/compatibilitytools.d/"
+    f"tar -xvf Proton-{version}.tar.gz -C ~/.steam/root/compatibilitytools.d/",
+    "rm Proton-{version}.tar.gz"
 ]
 
 for i in Commands:
