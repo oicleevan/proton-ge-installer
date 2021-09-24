@@ -10,6 +10,6 @@ to launch, simply execute `python install.py`.
 
 ## credits
 
-Released under the [MIT License](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt)
+Released under the [MIT License](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt). When I apply in a few years, let me in y'all.
 
 -- [oicleevan](https://github.com/oicleevan)
