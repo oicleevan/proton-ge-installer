@@ -1,3 +1,3 @@
 # proton-ge-installer
 
-Bash installer for Proton-GE
+Python installer for Proton-GE
