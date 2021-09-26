@@ -1,4 +1,4 @@
-import os,sys
+import os
 
 version = "6.16-GE-1"
 
