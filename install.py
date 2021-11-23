@@ -7,7 +7,7 @@ if(len(sys.argv) > 1):
 else:
     opt=None
 
-version = "6.18-GE-2"
+version = "6.21-GE-2"
 url=f"https://github.com/GloriousEggroll/proton-ge-custom/releases/download/{version}/Proton-{version}.tar.gz"
 
 def install(ver, link):
@@ -15,8 +15,8 @@ def install(ver, link):
 
     Commands = [
         "wget " + link,
-        "mkdir -p ~/.steam/root/compatibilitytools.d/",
-        f"tar -xvf Proton-{ver}.tar.gz -C ~/.steam/root/compatibilitytools.d/",
+        "mkdir -p ~/.steam/steam/compatibilitytools.d/",
+        f"tar -xvf Proton-{ver}.tar.gz -C ~/.steam/steam/compatibilitytools.d/",
         f"rm Proton-{ver}.tar.gz"
     ]
 
@@ -31,10 +31,10 @@ def upgrade(ver, link):
     print(f"Upgrading proton-ge to {ver}...\n")
 
     Commands = [
-        "rm -rf ~/.steam/root/compatibilitytools.d/Proton*",
+        "rm -rf ~/.steam/steam/compatibilitytools.d/Proton*",
         "wget " + link,
-        "mkdir -p ~/.steam/root/compatibilitytools.d/",
-        f"tar -xvf Proton-{ver}.tar.gz -C ~/.steam/root/compatibilitytools.d/",
+        "mkdir -p ~/.steam/steam/compatibilitytools.d/",
+        f"tar -xvf Proton-{ver}.tar.gz -C ~/.steam/steam/compatibilitytools.d/",
         f"rm Proton-{ver}.tar.gz"
     ]
 
